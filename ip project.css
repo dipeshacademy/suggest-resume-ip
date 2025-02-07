@@ -1,40 +1,53 @@
-         /* index.css */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
 }
-.container {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-}
+
 .upload-box {
+    max-width: 500px;
+    margin: auto;
+    background: white;
     border: 2px dashed #ccc;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 30px;
     cursor: pointer;
-    display: inline-block;
+    transition: 0.3s ease-in-out;
 }
+
+.upload-box:hover {
+    border-color: #007bff;
+    background: #f0f8ff;
+}
+
 .upload-icon {
-    width: 50px;
-    height: 50px;
-    color: #888;
+    width: 60px;
+    height: 60px;
 }
-.progress-bar {
-    width: 100%;
-    background: #eee;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-.progress {
-    height: 10px;
-    background: green;
-    width: 0;
-    border-radius: 5px;
-}
+
 .hidden {
     display: none;
+}
+
+.pricing-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+.progress {
+    height: 25px;
+    border-radius: 12px;
+}
+
+.progress-bar {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.upload-content img{
+    height: 100px;
+    width: 100px;
 }
