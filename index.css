@@ -1,0 +1,40 @@
+         /* index.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+.upload-box {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+.upload-icon {
+    width: 50px;
+    height: 50px;
+    color: #888;
+}
+.progress-bar {
+    width: 100%;
+    background: #eee;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.progress {
+    height: 10px;
+    background: green;
+    width: 0;
+    border-radius: 5px;
+}
+.hidden {
+    display: none;
+}
